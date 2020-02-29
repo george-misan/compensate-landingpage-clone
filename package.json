@@ -1,0 +1,19 @@
+{
+  "name": "compensate",
+  "version": "1.0.0",
+  "description": "a landing page for compensate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/george-misan/compensate-landingPage.git"
+  },
+  "author": "George Misan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/george-misan/compensate-landingPage/issues"
+  },
+  "homepage": "https://github.com/george-misan/compensate-landingPage#readme"
+}
