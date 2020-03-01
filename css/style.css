@@ -15,7 +15,8 @@ body {
   font-family: "Montserrat";
   font-weight: 400;
   font-size: 1.6rem;
-  color: #0c1111; }
+  color: #0c1111;
+  background-color: #F0F2F2; }
 
 .heading-primary {
   color: white;
@@ -232,3 +233,24 @@ cite {
 
 .section-features {
   padding: 10rem 0; }
+
+.section-trademark {
+  background-image: url(../../img/compensate-flight.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative; }
+
+.section-socialmedia {
+  background-image: url(../../img/compensate-socialmedia.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative; }
+
+.card {
+  background-image: url(../../img/nainen-puhelin-square.png);
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  position: relative; }
