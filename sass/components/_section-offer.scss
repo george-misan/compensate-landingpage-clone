@@ -1,0 +1,28 @@
+.container {
+    padding-top: 15rem;
+    height: 100%;
+    background: #1C1C1C;
+    width: 100%;
+}
+
+.offer-box {
+    display: grid;
+    position: relative;
+
+    &__textbox {
+        width: 75rem;
+        color: white;
+        top: -11%;
+        left: 50%;
+        transform: translate(-50%, 11%);
+        margin: 0 auto;
+        position: absolute;
+        text-align: center;
+    }
+}
+
+.offer-box img {
+    margin: 0 auto;
+    width: 90%;
+    align-items: center;
+}
