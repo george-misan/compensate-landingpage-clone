@@ -2,7 +2,7 @@ body {
     font-family: "Montserrat";
     font-weight: 400;
     font-size: $default-font-size;
-    color: #777;
+    color: #0c1111;
     // padding: 3rem;
 }
 
@@ -14,13 +14,22 @@ body {
         display: block;
         font-size: 6rem;
         font-weight: 700;
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
 
     }
 
     &--sub {
         display: block;
         font-size: 2rem;
-        font-weight: 600;
+        font-weight: 500;
     }
+}
+
+.heading-tertiary {
+    color: #0c1111;
+    margin-bottom: 6rem;
+    display: block;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
 }

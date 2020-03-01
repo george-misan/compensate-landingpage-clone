@@ -1,0 +1,15 @@
+.section-info {
+
+    &__textbox {
+        display: inline-block;
+        margin-bottom: 4rem;
+        width: $custom-width;
+
+        & p {
+            font-size: 2rem;
+            font-weight: 500;
+            line-height: 3rem;
+            color: #102926;
+        }
+    }
+}

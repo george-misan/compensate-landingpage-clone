@@ -15,7 +15,7 @@ body {
   font-family: "Montserrat";
   font-weight: 400;
   font-size: 1.6rem;
-  color: #777; }
+  color: #0c1111; }
 
 .heading-primary {
   color: white;
@@ -24,11 +24,31 @@ body {
     display: block;
     font-size: 6rem;
     font-weight: 700;
-    margin-bottom: 2rem; }
+    margin-bottom: 3rem; }
   .heading-primary--sub {
     display: block;
     font-size: 2rem;
-    font-weight: 600; }
+    font-weight: 500; }
+
+.heading-tertiary {
+  color: #0c1111;
+  margin-bottom: 6rem;
+  display: block;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 3rem; }
+
+.u-center-text {
+  text-align: center !important; }
+
+.u-margin-bottom-small {
+  margin-bottom: 3rem !important; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem !important; }
 
 .header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/header_photo.png);
@@ -92,3 +112,40 @@ body {
   100% {
     transform-origin: bottom;
     transform: scaleY(0); } }
+
+.section-info__textbox {
+  display: inline-block;
+  margin-bottom: 4rem;
+  width: 68rem; }
+  .section-info__textbox p {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    color: #102926; }
+
+.section-valuePreposition {
+  padding: 14rem 0; }
+  .section-valuePreposition__textbox {
+    text-align: center;
+    color: white;
+    width: 80rem;
+    margin: 0 auto; }
+
+.heading-small {
+  font-weight: 500; }
+
+.short-text {
+  font-size: 2.5rem;
+  font-weight: 600; }
+
+.section-info {
+  padding: 14rem 0;
+  margin: 0 auto; }
+
+.section-valuePreposition {
+  background-image: url(../../img/preposition-img.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 80vh;
+  position: relative; }
