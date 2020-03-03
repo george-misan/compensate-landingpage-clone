@@ -10,7 +10,6 @@
     background-attachment: fixed;
     height: 90vh;
     position: relative;
-
 }
 
 .section-features {
@@ -29,8 +28,6 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
-    position: relative;
-
 }
 
 .section-socialmedia {
@@ -39,13 +36,32 @@
     background-position: center;
     height: 100vh;
     position: relative;
-
 }
 
-.card {
+.first--card {
     background-image: url(../../img/nainen-puhelin-square.png);
     background-size: cover;
     background-position: center;
-    height: 30vh;
-    position: relative;
+}
+
+.second--card {
+    background-image: url(../../img/shutterstock_651928258.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.third--card {
+    background-image: url(../../img/impact-bg1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fourth--card {
+    background-image: url(../../img/impact-bg2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.section-business {
+    padding: 10rem 0;
 }

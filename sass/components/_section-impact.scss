@@ -1,0 +1,47 @@
+.section-impact {
+    background-color: #FCFAF8;
+    height: 100vh;
+
+    &__textbox {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+
+        & h2 {
+            font-size: 5rem;
+            padding: 5rem 0;
+        }
+
+        & p {
+            font-size: 3rem;
+            font-weight: 600;
+        }
+    }
+}
+
+.cards-container {
+    padding: 10rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: white;
+    grid-gap: 5rem;
+    height: auto;
+}
+
+.card {
+    width: 90%;
+    display: grid;
+    align-content: center;
+    height: 40rem;
+
+    &__textbox {
+        & h2 {
+            font-size: 6rem;
+        }
+
+        & p {
+            font-size: 2rem;
+            font-weight: 600;
+        }
+    }
+}

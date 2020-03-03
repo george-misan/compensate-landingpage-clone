@@ -1,0 +1,17 @@
+.btn {
+
+    &,
+    &:link,
+    &:visited {
+        text-decoration: none;
+        padding: 1.5rem 4rem;
+        display: inline-block;
+        border-radius: 10rem;
+        transition: all .2s;
+        position: relative;
+        font-size: $default-font-size;
+        background-color: #288C96;
+        color: white;
+
+    }
+}

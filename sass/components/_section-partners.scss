@@ -1,0 +1,47 @@
+.section-partners {
+    height: 110vh;
+    background: #FCFAF8;
+    padding: 5rem 10rem;
+
+    & h2 {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 5rem;
+        font-weight: 600;
+        width: 60%;
+        padding: 5rem 0;
+    }
+
+    &__textbox {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        & h3 {
+            font-size: 3.2rem;
+            font-weight: 500;
+        }
+
+        & h4 {
+            font-size: 2.4rem;
+            margin-top: 2rem;
+            line-height: 3rem;
+        }
+
+        & p {
+            font-size: 1.8rem;
+            font-weight: 500;
+            line-height: 2.8rem;
+        }
+
+        &__implementation p {
+            text-indent: 50px;
+        }
+
+        &__implementation span,
+        p {
+            font-size: 1.8rem;
+            font-weight: 500;
+            line-height: 2.8rem;
+        }
+    }
+}

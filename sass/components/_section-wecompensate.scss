@@ -1,0 +1,33 @@
+.section-wecompensate {
+    background: #1B1B1B;
+    padding: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    &__text {
+        font-size: 6rem;
+        font-weight: 600;
+        color: white;
+        align-self: center;
+
+    }
+
+    &__photo {
+        justify-self: center;
+    }
+
+    &__pagination {
+        padding: 1.4rem;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 16px 16px 16px 16px;
+    }
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    padding-right: 10px;
+}

@@ -1,0 +1,57 @@
+.section-reviews {
+    height: 100vh;
+    background: #F0F2F2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 15rem;
+    padding: 10rem;
+    justify-content: center;
+
+
+    &__textbox {
+        height: auto;
+
+        &__container {
+            height: 100%;
+            display: grid;
+            text-align: center;
+            justify-content: center;
+            align-content: center;
+        }
+
+
+        & h2 {
+            font-size: 6rem;
+            font-weight: 500;
+            margin-bottom: 2.5rem;
+
+        }
+
+        & span {
+            font-size: 4rem;
+            font-weight: 600;
+            display: block;
+        }
+
+        & a {
+            margin: 6rem 10rem;
+        }
+    }
+
+    &__photo {
+        width: 70rem;
+
+
+        &__container {
+            height: 100%;
+            display: grid;
+            align-content: center;
+        }
+
+
+        & img {
+
+            width: 100%;
+        }
+    }
+}

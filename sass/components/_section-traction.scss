@@ -1,0 +1,58 @@
+.section-traction {
+    height: 100vh;
+    padding-top: 10rem;
+    background: #F0F2F2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+
+    &__photo {
+        text-align: center;
+
+        & img {
+            width: 54rem;
+        }
+    }
+
+    &__textbox {
+        &__content h2 {
+            font-size: 6rem;
+            margin-bottom: 10rem;
+        }
+    }
+
+    &__icons {
+        display: grid;
+        grid-template-columns: 30rem 30rem;
+        grid-gap: 5rem;
+        grid-template-rows: auto;
+    }
+
+
+}
+
+.round-icon {
+    background: #288C96;
+    width: 280px;
+    height: 280px;
+    border-radius: 100%;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+
+    &__textbox {
+        color: white;
+        text-align: center;
+
+        & h3 {
+            display: inline-block;
+            font-size: 6rem;
+
+        }
+
+        & p {
+            font-size: 2rem;
+            font-weight: 500;
+        }
+    }
+}
