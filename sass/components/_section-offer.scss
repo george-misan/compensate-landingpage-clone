@@ -1,3 +1,10 @@
+.section-offer {
+    & h2 {
+        font-size: 5.2rem;
+    }
+}
+
+
 .container {
     padding-top: 15rem;
     height: 100%;
@@ -12,12 +19,24 @@
     &__textbox {
         width: 75rem;
         color: white;
-        top: -11%;
+        top: -8%;
         left: 50%;
         transform: translate(-50%, 11%);
         margin: 0 auto;
         position: absolute;
         text-align: center;
+
+        & h3 {
+            font-size: 3.5rem;
+            font-weight: 500;
+            line-height: 2.6rem;
+        }
+
+        & p {
+            font-size: 2rem;
+            font-weight: 500;
+            line-height: 2.6rem;
+        }
     }
 }
 

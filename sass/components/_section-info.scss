@@ -5,11 +5,17 @@
         margin-bottom: 4rem;
         width: $custom-width;
 
+        & h2 {
+            font-size: 5.4rem;
+        }
+
         & p {
-            font-size: 2rem;
-            font-weight: 500;
-            line-height: 3rem;
+            font-size: 3rem;
+            font-weight: 600;
+            line-height: 4.5rem;
             color: #102926;
         }
     }
+
+
 }

@@ -1,20 +1,21 @@
 .feature-box {
 
     &__number {
-        font-size: 8rem;
+        font-size: 9rem;
         font-weight: 600;
         margin-bottom: 10rem;
     }
 
     & h3 {
         font-size: 3rem;
-        font-weight: 500;
+        font-weight: 600;
     }
 
     &__text {
         font-weight: 500;
-        font-size: 1.7rem;
+        font-size: 2rem;
         color: #0c1111;
+        line-height: 3rem;
     }
 
 }

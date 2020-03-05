@@ -23,12 +23,12 @@ body {
   margin-bottom: 6rem; }
   .heading-primary--main {
     display: block;
-    font-size: 6rem;
+    font-size: 9rem;
     font-weight: 700;
     margin-bottom: 3rem; }
   .heading-primary--sub {
     display: block;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 500; }
 
 .heading-tertiary {
@@ -60,8 +60,8 @@ body {
   position: relative; }
   .header__logo-box {
     position: absolute;
-    top: 4rem;
-    left: 4rem; }
+    top: 5rem;
+    left: 5rem; }
   .header__logo {
     width: 16rem; }
   .header__hero-box {
@@ -116,62 +116,71 @@ body {
 
 .btn, .btn:link, .btn:visited {
   text-decoration: none;
-  padding: 1.5rem 4rem;
+  padding: 2.4rem 6rem;
   display: inline-block;
   border-radius: 10rem;
   transition: all .2s;
   position: relative;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
+  font-weight: 600;
   background-color: #288C96;
   color: white; }
 
 .section-info__textbox {
   display: inline-block;
   margin-bottom: 4rem;
-  width: 68rem; }
+  width: 125rem; }
+  .section-info__textbox h2 {
+    font-size: 5.4rem; }
   .section-info__textbox p {
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 3rem;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 4.5rem;
     color: #102926; }
 
 .section-valuePreposition {
-  padding: 14rem 0; }
+  padding: 14rem 0;
+  display: grid;
+  align-content: center; }
   .section-valuePreposition__textbox {
     text-align: center;
     color: white;
-    width: 80rem;
+    width: 110rem;
     margin: 0 auto; }
 
 .heading-small {
-  font-weight: 500; }
+  font-weight: 500;
+  font-size: 2rem; }
 
 .short-text {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: 600; }
 
 .feature-box__number {
-  font-size: 8rem;
+  font-size: 9rem;
   font-weight: 600;
   margin-bottom: 10rem; }
 
 .feature-box h3 {
   font-size: 3rem;
-  font-weight: 500; }
+  font-weight: 600; }
 
 .feature-box__text {
   font-weight: 500;
-  font-size: 1.7rem;
-  color: #0c1111; }
+  font-size: 2rem;
+  color: #0c1111;
+  line-height: 3rem; }
 
 .section-quote {
+  height: 100vh;
   text-align: center; }
 
 .blockquote {
   display: inline-block;
   width: 120rem;
   font-size: 5rem;
-  font-weight: 500; }
+  font-weight: 500;
+  margin-top: 20rem; }
 
 cite {
   display: block;
@@ -179,6 +188,9 @@ cite {
   font-size: 3rem;
   font-weight: 600;
   margin: 1.8rem 0; }
+
+.section-offer h2 {
+  font-size: 5.2rem; }
 
 .container {
   padding-top: 15rem;
@@ -192,12 +204,20 @@ cite {
   .offer-box__textbox {
     width: 75rem;
     color: white;
-    top: -11%;
+    top: -8%;
     left: 50%;
     transform: translate(-50%, 11%);
     margin: 0 auto;
     position: absolute;
     text-align: center; }
+    .offer-box__textbox h3 {
+      font-size: 3.5rem;
+      font-weight: 500;
+      line-height: 2.6rem; }
+    .offer-box__textbox p {
+      font-size: 2rem;
+      font-weight: 500;
+      line-height: 2.6rem; }
 
 .offer-box img {
   margin: 0 auto;
@@ -205,39 +225,49 @@ cite {
   align-items: center; }
 
 .section-business {
-  height: 100vh; }
+  height: 120vh;
+  margin: 2rem; }
+  .section-business__row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 14rem;
+    padding: 10rem; }
   .section-business__textbox {
     width: 40%;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 8rem; }
+    margin-bottom: 2rem; }
     .section-business__textbox h4 {
       font-size: 3rem;
-      font-weight: 500;
+      font-weight: 600;
       margin-bottom: 2rem; }
+    .section-business__textbox p {
+      font-size: 2rem;
+      font-weight: 500;
+      line-height: 2.8rem; }
   .section-business__photo {
-    width: 100%;
-    overflow: hidden;
-    display: grid; }
+    width: 100%; }
     .section-business__photo img {
-      width: 160%;
-      justify-self: center; }
+      width: 100%; }
   .section-business__container {
-    margin-top: 2rem;
+    margin-top: 4rem;
     width: 28rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-gap: 40px; }
   .section-business__text {
-    width: 70%;
-    margin-top: 10rem; }
+    width: 100%;
+    margin-top: 12rem; }
     .section-business__text__main {
-      font-size: 5rem;
+      font-size: 7rem;
       margin-bottom: 4rem; }
     .section-business__text__sub {
+      font-size: 2.4rem;
       font-weight: 500;
-      line-height: 2.4rem;
+      line-height: 3.2rem;
       margin-bottom: 6rem; }
+    .section-business__text a {
+      margin-top: 2rem; }
 
 .posti--logobox {
   width: 100%; }
@@ -247,16 +277,22 @@ cite {
 .compensate--logobox {
   width: 100%; }
   .compensate--logobox img {
-    width: 120%; }
+    width: 200%; }
 
 .pagination {
-  width: 20%;
+  width: 95%;
   display: grid;
-  grid-template-columns: 1fr 1fr; }
+  justify-items: end; }
+  .pagination__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-self: end;
+    grid-gap: 2rem; }
   .pagination__icon img {
-    width: 20px; }
+    width: 3rem; }
   .pagination__text span {
-    font-weight: 600; }
+    font-weight: 600;
+    font-size: 2rem; }
 
 .section-trademark {
   padding: 5rem 0;
@@ -285,23 +321,22 @@ cite {
 .section-community {
   display: grid;
   grid-template-columns: 1fr 1.2fr;
-  padding: 10rem 0 10rem 10rem;
+  padding: 10rem 0 10rem 5rem;
   grid-gap: 15rem; }
-  .section-community__textbox h2 {
-    font-size: 5rem;
-    margin-bottom: 4rem; }
-  .section-community__textbox p {
-    font-size: 2.2rem;
-    font-weight: 500;
-    line-height: 3rem; }
+  .section-community__textbox {
+    padding: 0 5rem 0 20rem; }
+    .section-community__textbox h2 {
+      font-size: 5rem;
+      margin-bottom: 4rem; }
+    .section-community__textbox p {
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 3.5rem; }
   .section-community__photo {
-    width: 100%;
-    overflow: hidden; }
+    width: 100%; }
     .section-community__photo img {
       width: 90rem;
-      transform: scale(1);
-      height: 70rem;
-      object-fit: cover; }
+      height: 80rem; }
 
 .section-wecompensate {
   background: #1B1B1B;
@@ -385,7 +420,7 @@ cite {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   color: white;
-  grid-gap: 5rem;
+  grid-gap: 1rem;
   height: auto; }
 
 .card {
@@ -393,11 +428,15 @@ cite {
   display: grid;
   align-content: center;
   height: 40rem; }
-  .card__textbox h2 {
-    font-size: 6rem; }
-  .card__textbox p {
-    font-size: 2rem;
-    font-weight: 600; }
+  .card__textbox {
+    margin-top: 16rem;
+    margin-left: 4rem; }
+    .card__textbox h2 {
+      font-size: 6rem; }
+    .card__textbox p {
+      width: 80%;
+      font-size: 2rem;
+      font-weight: 600; }
 
 .section-reviews {
   height: 100vh;
@@ -407,24 +446,22 @@ cite {
   grid-gap: 0 15rem;
   padding: 10rem;
   justify-content: center; }
-  .section-reviews__textbox {
-    height: auto; }
-    .section-reviews__textbox__container {
-      height: 100%;
-      display: grid;
-      text-align: center;
-      justify-content: center;
-      align-content: center; }
-    .section-reviews__textbox h2 {
-      font-size: 6rem;
-      font-weight: 500;
-      margin-bottom: 2.5rem; }
-    .section-reviews__textbox span {
-      font-size: 4rem;
-      font-weight: 600;
-      display: block; }
-    .section-reviews__textbox a {
-      margin: 6rem 10rem; }
+  .section-reviews__textbox__container {
+    height: 100%;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-content: center; }
+  .section-reviews__textbox h2 {
+    font-size: 6rem;
+    font-weight: 500;
+    margin-bottom: 2.5rem; }
+  .section-reviews__textbox span {
+    font-size: 4rem;
+    font-weight: 600;
+    display: block; }
+  .section-reviews__button {
+    margin: 5rem; }
   .section-reviews__photo {
     width: 70rem; }
     .section-reviews__photo__container {
@@ -468,14 +505,10 @@ cite {
       line-height: 2.8rem; }
 
 .row {
-  max-width: 130rem;
+  max-width: 165rem;
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
-  .row::after {
-    content: "";
-    display: table;
-    clear: both; }
   .row [class^="col-"] {
     float: left; }
     .row [class^="col-"]:not(:last-child) {
@@ -503,6 +536,8 @@ cite {
   background-position: center;
   background-attachment: fixed;
   height: 90vh;
+  width: 94%;
+  margin: 0 auto;
   position: relative; }
 
 .section-features {

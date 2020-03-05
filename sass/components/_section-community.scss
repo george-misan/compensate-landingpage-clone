@@ -1,31 +1,30 @@
 .section-community {
     display: grid;
     grid-template-columns: 1fr 1.2fr;
-    padding: 10rem 0 10rem 10rem;
+    padding: 10rem 0 10rem 5rem;
     grid-gap: 15rem;
 
     &__textbox {
+        padding: 0 5rem 0 20rem;
+
         & h2 {
             font-size: 5rem;
             margin-bottom: 4rem;
         }
 
         & p {
-            font-size: 2.2rem;
-            font-weight: 500;
-            line-height: 3rem;
+            font-size: 2rem;
+            font-weight: 600;
+            line-height: 3.5rem;
         }
     }
 
     &__photo {
         width: 100%;
-        overflow: hidden;
 
         & img {
             width: 90rem;
-            transform: scale(1);
-            height: 70rem;
-            object-fit: cover;
+            height: 80rem;
 
         }
     }

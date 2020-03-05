@@ -24,7 +24,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     color: white;
-    grid-gap: 5rem;
+    grid-gap: 1rem;
     height: auto;
 }
 
@@ -35,11 +35,15 @@
     height: 40rem;
 
     &__textbox {
+        margin-top: 16rem;
+        margin-left: 4rem;
+
         & h2 {
             font-size: 6rem;
         }
 
         & p {
+            width: 80%;
             font-size: 2rem;
             font-weight: 600;
         }

@@ -9,7 +9,7 @@
 
 
     &__textbox {
-        height: auto;
+
 
         &__container {
             height: 100%;
@@ -32,10 +32,10 @@
             font-weight: 600;
             display: block;
         }
+    }
 
-        & a {
-            margin: 6rem 10rem;
-        }
+    &__button {
+        margin: 5rem;
     }
 
     &__photo {
