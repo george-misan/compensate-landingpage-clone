@@ -1,6 +1,10 @@
 .section-offer {
     & h2 {
         font-size: 5.2rem;
+
+        @include respond(tab-port) {
+            font-size: 4.2rem;
+        }
     }
 }
 
@@ -26,16 +30,31 @@
         position: absolute;
         text-align: center;
 
+        @include respond(tab-port) {
+            width: 55rem;
+            top: -24%;
+
+        }
+
         & h3 {
             font-size: 3.5rem;
             font-weight: 500;
             line-height: 2.6rem;
+
+            @include respond(tab-port) {
+                font-size: 2.2rem;
+            }
         }
 
         & p {
             font-size: 2rem;
             font-weight: 500;
             line-height: 2.6rem;
+
+            @include respond(tab-port) {
+                font-size: 1.6rem;
+                line-height: 2.2rem;
+            }
         }
     }
 }

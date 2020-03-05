@@ -5,6 +5,11 @@
         margin-bottom: 4rem;
         width: $custom-width;
 
+
+        @include respond(tab-port) {
+            width: 80rem;
+        }
+
         & h2 {
             font-size: 5.4rem;
         }
@@ -14,6 +19,13 @@
             font-weight: 600;
             line-height: 4.5rem;
             color: #102926;
+
+
+            @include respond(tab-port) {
+                font-size: 2rem;
+                line-height: 3rem;
+            }
+
         }
     }
 

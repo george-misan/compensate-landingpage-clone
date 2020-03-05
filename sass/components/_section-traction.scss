@@ -9,6 +9,7 @@
     @include respond(tab-port) {
         grid-template-columns: 1fr;
         overflow: visible;
+        height: 100%;
     }
 
     &__photo {
@@ -20,9 +21,17 @@
     }
 
     &__textbox {
+        @include respond(tab-port) {
+            margin: 0 auto;
+        }
+
         &__content h2 {
             font-size: 6rem;
             margin-bottom: 10rem;
+
+            @include respond(tab-port) {
+                text-align: center;
+            }
         }
     }
 

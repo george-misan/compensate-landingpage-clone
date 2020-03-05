@@ -38,6 +38,10 @@
     background-position: center;
     height: 100vh;
     position: relative;
+
+    @include respond(tab-port) {
+        height: 40vh;
+    }
 }
 
 .first--card {

@@ -6,10 +6,16 @@
 
     @include respond(tab-port) {
         grid-template-columns: 1fr;
+
     }
 
     &__textbox {
         padding: 0 5rem 0 20rem;
+
+        @include respond(tab-port) {
+            padding: 2rem;
+
+        }
 
         & h2 {
             font-size: 5rem;
@@ -20,6 +26,8 @@
             font-size: 2rem;
             font-weight: 600;
             line-height: 3.5rem;
+
+
         }
     }
 

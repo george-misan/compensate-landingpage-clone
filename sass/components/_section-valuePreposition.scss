@@ -8,6 +8,10 @@
         color: white;
         width: 110rem;
         margin: 0 auto;
+
+        @include respond(tab-port) {
+            width: 80rem;
+        }
     }
 }
 
@@ -20,4 +24,8 @@
 .short-text {
     font-size: 3.5rem;
     font-weight: 600;
+
+    @include respond(tab-port) {
+        font-size: 2.4rem;
+    }
 }
