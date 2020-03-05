@@ -1,3 +1,10 @@
+/*
+0 - 600px:      Phone
+600 - 900px:    Tablet potrait
+900 - 1200px:   Tablet landscape
+1200 - 1800     where default style apply
+1800px + :      Big Desktop
+*/
 *,
 *::after,
 *::before {
@@ -6,14 +13,24 @@
   box-sizing: inherit; }
 
 html {
+  box-sizing: border-box;
   font-size: 62.5%; }
-
-body {
-  box-sizing: border-box; }
+  @media (max-width: 37.5em) {
+    html {
+      font-size: 40%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 75em) {
+    html {
+      font-size: 50%; } }
+  @media (min-width: 112.6em) {
+    html {
+      font-size: 62%; } }
 
 body {
   font-family: "Montserrat";
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1.6rem;
   color: #0c1111;
   background-color: white; }
@@ -180,7 +197,7 @@ body {
   width: 120rem;
   font-size: 5rem;
   font-weight: 500;
-  margin-top: 20rem; }
+  margin-top: 10%; }
 
 cite {
   display: block;
@@ -232,6 +249,9 @@ cite {
     grid-template-columns: 1fr 1fr;
     grid-gap: 14rem;
     padding: 10rem; }
+    @media (max-width: 56.25em) {
+      .section-business__row {
+        grid-template-columns: 1fr; } }
   .section-business__textbox {
     width: 40%;
     margin: 0 auto;
@@ -250,7 +270,7 @@ cite {
     .section-business__photo img {
       width: 100%; }
   .section-business__container {
-    margin-top: 4rem;
+    margin-top: 2rem;
     width: 28rem;
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -259,13 +279,14 @@ cite {
     width: 100%;
     margin-top: 12rem; }
     .section-business__text__main {
-      font-size: 7rem;
+      font-size: 7.2rem;
       margin-bottom: 4rem; }
     .section-business__text__sub {
       font-size: 2.4rem;
       font-weight: 500;
       line-height: 3.2rem;
-      margin-bottom: 6rem; }
+      margin-bottom: 6rem;
+      padding-right: 15%; }
     .section-business__text a {
       margin-top: 2rem; }
 
@@ -302,6 +323,9 @@ cite {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 200px; }
+    @media (max-width: 56.25em) {
+      .section-trademark__container {
+        grid-template-columns: 1fr; } }
   .section-trademark__textbox {
     color: white;
     padding: 30rem 0 10rem 10rem; }
@@ -323,6 +347,9 @@ cite {
   grid-template-columns: 1fr 1.2fr;
   padding: 10rem 0 10rem 5rem;
   grid-gap: 15rem; }
+  @media (max-width: 56.25em) {
+    .section-community {
+      grid-template-columns: 1fr; } }
   .section-community__textbox {
     padding: 0 5rem 0 20rem; }
     .section-community__textbox h2 {
@@ -342,7 +369,11 @@ cite {
   background: #1B1B1B;
   padding: 10rem;
   display: grid;
-  grid-template-columns: 1fr 1fr; }
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 20rem; }
+  @media (max-width: 56.25em) {
+    .section-wecompensate {
+      grid-template-columns: 1fr; } }
   .section-wecompensate__text {
     font-size: 6rem;
     font-weight: 600;
@@ -350,6 +381,8 @@ cite {
     align-self: center; }
   .section-wecompensate__photo {
     justify-self: center; }
+    .section-wecompensate__photo img {
+      width: 500px; }
   .section-wecompensate__pagination {
     padding: 1.4rem;
     justify-content: center;
@@ -370,6 +403,10 @@ cite {
   display: grid;
   grid-template-columns: 1fr 1fr;
   overflow: hidden; }
+  @media (max-width: 56.25em) {
+    .section-traction {
+      grid-template-columns: 1fr;
+      overflow: visible; } }
   .section-traction__photo {
     text-align: center; }
     .section-traction__photo img {
@@ -405,6 +442,7 @@ cite {
   background-color: #FCFAF8;
   height: 100vh; }
   .section-impact__textbox {
+    margin-top: 15rem;
     display: grid;
     justify-content: center;
     text-align: center; }
@@ -422,6 +460,9 @@ cite {
   color: white;
   grid-gap: 1rem;
   height: auto; }
+  @media (max-width: 56.25em) {
+    .cards-container {
+      grid-template-columns: 1fr; } }
 
 .card {
   width: 90%;
@@ -446,6 +487,9 @@ cite {
   grid-gap: 0 15rem;
   padding: 10rem;
   justify-content: center; }
+  @media (max-width: 56.25em) {
+    .section-reviews {
+      grid-template-columns: 1fr; } }
   .section-reviews__textbox__container {
     height: 100%;
     display: grid;
@@ -485,6 +529,9 @@ cite {
   .section-partners__textbox {
     display: grid;
     grid-template-columns: repeat(2, 1fr); }
+    @media (max-width: 56.25em) {
+      .section-partners__textbox {
+        grid-template-columns: 1fr; } }
     .section-partners__textbox h3 {
       font-size: 3.2rem;
       font-weight: 500; }
@@ -509,10 +556,20 @@ cite {
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
+    @media (max-width: 56.25em) {
+      .row:not(:last-child) {
+        margin-right: 6rem; } }
   .row [class^="col-"] {
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
+      @media (max-width: 56.25em) {
+        .row [class^="col-"]:not(:last-child) {
+          margin-right: 0;
+          margin-bottom: 6rem; } }
+    @media (max-width: 56.25em) {
+      .row [class^="col-"] {
+        width: 100% !important; } }
   .row .col-1-of-2 {
     width: calc((100% - 6rem) / 2); }
   .row .col-1-of-3 {

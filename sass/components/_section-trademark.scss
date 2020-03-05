@@ -1,36 +1,42 @@
 .section-trademark {
-  padding: 5rem 0;
-  overflow: hidden;
+    padding: 5rem 0;
+    overflow: hidden;
 
-  &__container {
-    width: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 200px;
-  }
+    &__container {
+        width: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 200px;
 
-  &__textbox {
-    color: white;
-    padding: 30rem 0 10rem 10rem;
-
-    &__content {
-      align-self: center;
+        @include respond(tab-port) {
+            grid-template-columns: 1fr;
+        }
     }
 
-    & h2 {
-      font-size: 5.5rem;
-      margin-bottom: 5rem;
-    }
-    & p {
-      font-size: 3rem;
-      font-weight: 500;
-    }
-  }
+    &__textbox {
+        color: white;
+        padding: 30rem 0 10rem 10rem;
 
-  &__photo {
-    text-align: center;
-    & img {
-      width: 68%;
+        &__content {
+            align-self: center;
+        }
+
+        & h2 {
+            font-size: 5.5rem;
+            margin-bottom: 5rem;
+        }
+
+        & p {
+            font-size: 3rem;
+            font-weight: 500;
+        }
     }
-  }
+
+    &__photo {
+        text-align: center;
+
+        & img {
+            width: 68%;
+        }
+    }
 }

@@ -8,6 +8,10 @@
         grid-template-columns: 1fr 1fr;
         grid-gap: 14rem;
         padding: 10rem;
+
+        @include respond(tab-port) {
+            grid-template-columns: 1fr;
+        }
     }
 
 
@@ -42,11 +46,12 @@
     }
 
     &__container {
-        margin-top: 4rem;
+        margin-top: 2rem;
         width: 28rem;
         display: grid;
         grid-template-columns: 2fr 1fr;
         grid-gap: 40px;
+
 
     }
 
@@ -55,7 +60,7 @@
         margin-top: 12rem;
 
         &__main {
-            font-size: 7rem;
+            font-size: 7.2rem;
             margin-bottom: 4rem;
         }
 
@@ -64,6 +69,7 @@
             font-weight: 500;
             line-height: 3.2rem;
             margin-bottom: 6rem;
+            padding-right: 15%;
         }
 
         & a {

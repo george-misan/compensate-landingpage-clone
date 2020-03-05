@@ -6,6 +6,11 @@
     grid-template-columns: 1fr 1fr;
     overflow: hidden;
 
+    @include respond(tab-port) {
+        grid-template-columns: 1fr;
+        overflow: visible;
+    }
+
     &__photo {
         text-align: center;
 

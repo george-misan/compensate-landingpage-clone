@@ -4,6 +4,10 @@
     padding: 10rem 0 10rem 5rem;
     grid-gap: 15rem;
 
+    @include respond(tab-port) {
+        grid-template-columns: 1fr;
+    }
+
     &__textbox {
         padding: 0 5rem 0 20rem;
 

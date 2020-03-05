@@ -3,6 +3,7 @@
     height: 100vh;
 
     &__textbox {
+        margin-top: 15rem;
         display: grid;
         justify-content: center;
         text-align: center;
@@ -26,6 +27,10 @@
     color: white;
     grid-gap: 1rem;
     height: auto;
+
+    @include respond(tab-port) {
+        grid-template-columns: 1fr;
+    }
 }
 
 .card {

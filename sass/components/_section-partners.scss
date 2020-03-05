@@ -16,6 +16,10 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
 
+        @include respond(tab-port) {
+            grid-template-columns: 1fr;
+        }
+
         & h3 {
             font-size: 3.2rem;
             font-weight: 500;
