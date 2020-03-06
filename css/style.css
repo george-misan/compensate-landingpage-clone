@@ -664,7 +664,7 @@ cite {
       .section-traction__icons {
         grid-template-columns: 16rem 16rem;
         justify-content: center;
-        grid-gap: 8rem;
+        grid-gap: 4rem;
         grid-template-rows: 15rem; } }
 
 .round-icon {
