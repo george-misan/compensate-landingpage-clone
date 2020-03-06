@@ -42,11 +42,11 @@
     }
 
 
-    @if $breakpoint==big-desktop {
-        @media (min-width: 112.6em) {
-            @content
-        }
+    // @if $breakpoint==big-desktop {
+    //     @media (min-width: 112.6em) {
+    //         @content
+    //     }
 
-        ; //1800px
-    }
+    //     ; //1800px
+    // }
 }
