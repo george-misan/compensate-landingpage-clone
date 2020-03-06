@@ -1,4 +1,7 @@
 .feature-box {
+    @include respond(tab-port) {
+        padding: 0 4rem;
+    }
 
     &__number {
         font-size: 9rem;
@@ -31,6 +34,11 @@
         @include respond(tab-port) {
             text-align: center;
             margin: 0 auto;
+        }
+
+        @include respond(phone) {
+            font-size: 1.8rem;
+            line-height: 2.8rem;
         }
 
     }

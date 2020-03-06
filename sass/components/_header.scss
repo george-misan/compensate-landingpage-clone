@@ -6,6 +6,8 @@
     height: 100vh;
     position: relative;
 
+    @include respond(phone) {}
+
 
     &__logo-box {
         position: absolute;

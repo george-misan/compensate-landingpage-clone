@@ -12,6 +12,10 @@
     width: 94%;
     margin: 0 auto;
     position: relative;
+
+    @include respond(phone) {
+        width: 100%;
+    }
 }
 
 .section-features {

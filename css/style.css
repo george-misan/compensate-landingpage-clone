@@ -46,6 +46,9 @@ body {
     @media (max-width: 56.25em) {
       .heading-primary--main {
         font-size: 6rem; } }
+    @media (max-width: 37.5em) {
+      .heading-primary--main {
+        font-size: 3.4rem; } }
   .heading-primary--sub {
     display: block;
     font-size: 3rem;
@@ -53,6 +56,9 @@ body {
     @media (max-width: 56.25em) {
       .heading-primary--sub {
         font-size: 2.4rem; } }
+    @media (max-width: 37.5em) {
+      .heading-primary--sub {
+        font-size: 1.4rem; } }
 
 .heading-tertiary {
   color: #0c1111;
@@ -149,24 +155,62 @@ body {
   background-color: #288C96;
   color: white; }
 
-.section-info__textbox {
-  display: inline-block;
-  margin-bottom: 4rem;
-  width: 125rem; }
-  @media (max-width: 56.25em) {
-    .section-info__textbox {
-      width: 80rem; } }
-  .section-info__textbox h2 {
-    font-size: 5.4rem; }
-  .section-info__textbox p {
-    font-size: 3rem;
-    font-weight: 600;
-    line-height: 4.5rem;
-    color: #102926; }
+.section-info {
+  height: 160rem; }
+  @media (max-width: 37.5em) {
+    .section-info {
+      height: 100rem; } }
+  .section-info__textbox {
+    display: inline-block;
+    margin-bottom: 4rem;
+    width: 125rem; }
     @media (max-width: 56.25em) {
-      .section-info__textbox p {
-        font-size: 2rem;
-        line-height: 3rem; } }
+      .section-info__textbox {
+        width: 80rem; } }
+    @media (max-width: 37.5em) {
+      .section-info__textbox {
+        width: 34rem; } }
+    .section-info__textbox h2 {
+      font-size: 5.4rem; }
+      @media (max-width: 37.5em) {
+        .section-info__textbox h2 {
+          font-size: 4rem; } }
+    .section-info__textbox p {
+      font-size: 3rem;
+      font-weight: 600;
+      line-height: 4.5rem;
+      color: #102926; }
+      @media (max-width: 56.25em) {
+        .section-info__textbox p {
+          font-size: 2rem;
+          line-height: 3rem; } }
+      @media (max-width: 37.5em) {
+        .section-info__textbox p {
+          font-size: 1.6rem;
+          line-height: 2.6rem; } }
+  .section-info__video {
+    position: relative;
+    overflow: hidden;
+    padding-top: 60.25%;
+    width: 100%;
+    height: 100%; }
+    @media (max-width: 37.5em) {
+      .section-info__video {
+        width: 100%;
+        height: 20%; } }
+    .section-info__video__content {
+      position: absolute;
+      top: 10%;
+      left: 50%;
+      transform: translate(-50%, -10%);
+      width: 60%;
+      height: 60%;
+      border: 0;
+      margin: 0 auto; }
+      @media (max-width: 37.5em) {
+        .section-info__video__content {
+          width: 100%;
+          height: 100%; } }
 
 .section-valuePreposition {
   padding: 14rem 0;
@@ -180,10 +224,16 @@ body {
     @media (max-width: 56.25em) {
       .section-valuePreposition__textbox {
         width: 80rem; } }
+    @media (max-width: 37.5em) {
+      .section-valuePreposition__textbox {
+        width: 34rem; } }
 
 .heading-small {
   font-weight: 500;
   font-size: 2rem; }
+  @media (max-width: 37.5em) {
+    .heading-small {
+      font-size: 1.4rem; } }
 
 .short-text {
   font-size: 3.5rem;
@@ -191,6 +241,13 @@ body {
   @media (max-width: 56.25em) {
     .short-text {
       font-size: 2.4rem; } }
+  @media (max-width: 37.5em) {
+    .short-text {
+      font-size: 1.6rem; } }
+
+@media (max-width: 56.25em) {
+  .feature-box {
+    padding: 0 4rem; } }
 
 .feature-box__number {
   font-size: 9rem;
@@ -218,6 +275,10 @@ body {
     .feature-box__text {
       text-align: center;
       margin: 0 auto; } }
+  @media (max-width: 37.5em) {
+    .feature-box__text {
+      font-size: 1.8rem;
+      line-height: 2.8rem; } }
 
 .section-quote {
   height: 100vh;
@@ -237,6 +298,10 @@ body {
     .blockquote {
       font-size: 3rem;
       width: 80rem; } }
+  @media (max-width: 37.5em) {
+    .blockquote {
+      font-size: 2.8rem;
+      width: 40rem; } }
 
 cite {
   display: block;
@@ -244,12 +309,21 @@ cite {
   font-size: 3rem;
   font-weight: 600;
   margin: 1.8rem 0; }
+  @media (max-width: 37.5em) {
+    cite {
+      font-size: 2rem;
+      font-weight: 500;
+      margin: 0; } }
 
 .section-offer h2 {
   font-size: 5.2rem; }
   @media (max-width: 56.25em) {
     .section-offer h2 {
       font-size: 4.2rem; } }
+  @media (max-width: 37.5em) {
+    .section-offer h2 {
+      font-size: 3.4rem;
+      font-weight: 600; } }
 
 .container {
   padding-top: 15rem;
@@ -273,6 +347,10 @@ cite {
       .offer-box__textbox {
         width: 55rem;
         top: -24%; } }
+    @media (max-width: 37.5em) {
+      .offer-box__textbox {
+        width: 30rem;
+        top: -75%; } }
     .offer-box__textbox h3 {
       font-size: 3.5rem;
       font-weight: 500;
@@ -280,6 +358,10 @@ cite {
       @media (max-width: 56.25em) {
         .offer-box__textbox h3 {
           font-size: 2.2rem; } }
+      @media (max-width: 37.5em) {
+        .offer-box__textbox h3 {
+          font-size: 1.6rem;
+          margin-bottom: 0.8rem !important; } }
     .offer-box__textbox p {
       font-size: 2rem;
       font-weight: 500;
@@ -288,6 +370,11 @@ cite {
         .offer-box__textbox p {
           font-size: 1.6rem;
           line-height: 2.2rem; } }
+      @media (max-width: 37.5em) {
+        .offer-box__textbox p {
+          font-size: 1.2rem;
+          line-height: 1.8rem;
+          font-weight: 400; } }
 
 .offer-box img {
   margin: 0 auto;
@@ -628,6 +715,9 @@ cite {
     @media (max-width: 56.25em) {
       .row:not(:last-child) {
         margin-right: 6rem; } }
+    @media (max-width: 37.5em) {
+      .row:not(:last-child) {
+        margin-right: 0; } }
   .row [class^="col-"] {
     float: left; }
     .row [class^="col-"]:not(:last-child) {
@@ -636,7 +726,13 @@ cite {
         .row [class^="col-"]:not(:last-child) {
           margin-right: 0;
           margin-bottom: 6rem; } }
+      @media (max-width: 37.5em) {
+        .row [class^="col-"]:not(:last-child) {
+          margin-right: 0; } }
     @media (max-width: 56.25em) {
+      .row [class^="col-"] {
+        width: 100% !important; } }
+    @media (max-width: 37.5em) {
       .row [class^="col-"] {
         width: 100% !important; } }
   .row .col-1-of-2 {
@@ -665,6 +761,9 @@ cite {
   width: 94%;
   margin: 0 auto;
   position: relative; }
+  @media (max-width: 37.5em) {
+    .section-valuePreposition {
+      width: 100%; } }
 
 .section-features {
   padding: 10rem 0; }
