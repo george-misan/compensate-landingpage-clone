@@ -17,6 +17,11 @@
 
     &__logo {
         width: 16rem;
+
+        @include respond(phone) {
+            width: 12rem;
+        }
+
     }
 
     &__hero-box {
