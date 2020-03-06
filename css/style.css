@@ -845,6 +845,9 @@ cite {
       font-size: 1.8rem;
       font-weight: 500;
       line-height: 2.8rem; }
+    @media (max-width: 56.25em) {
+      .section-partners__textbox__implementation {
+        margin-top: 5rem; } }
     .section-partners__textbox__implementation p {
       text-indent: 50px; }
     .section-partners__textbox__implementation span,

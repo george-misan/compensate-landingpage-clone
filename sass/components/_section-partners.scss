@@ -46,8 +46,15 @@
             line-height: 2.8rem;
         }
 
-        &__implementation p {
-            text-indent: 50px;
+        &__implementation {
+            @include respond(tab-port) {
+                margin-top: 5rem;
+            }
+
+
+            & p {
+                text-indent: 50px;
+            }
         }
 
         &__implementation span,
