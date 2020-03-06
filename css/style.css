@@ -24,7 +24,10 @@ html {
   @media (max-width: 75em) {
     html {
       font-size: 50%; } }
-  @media (min-width: 1em) {
+  @media (max-width: 112em) {
+    html {
+      font-size: 50%; } }
+  @media (min-width: 112.6em) {
     html {
       font-size: 62%; } }
 
