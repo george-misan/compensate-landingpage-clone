@@ -24,9 +24,9 @@ html {
         font-size: 50%; // 1rem = 8px, 8/16 = 50%
     }
 
-    // @include respond(big-desktop) {
-    //     font-size: 62% // 1rem = 12px, 12/16 = 75%
-    // }
+    @include respond(big-desktop) {
+        font-size: 62% // 1rem = 12px, 12/16 = 75%
+    }
 }
 
 body {
