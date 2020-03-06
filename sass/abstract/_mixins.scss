@@ -43,7 +43,7 @@
 
 
     @if $breakpoint==big-desktop {
-        @media (min-width: 112.6em) {
+        @media (min-width: 1em) {
             @content
         }
 
