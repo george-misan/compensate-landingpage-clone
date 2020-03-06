@@ -5,6 +5,7 @@
 
     @include respond(phone) {
         padding: 2.5rem 5rem;
+        height: 190vh;
     }
 
     & h2 {
@@ -32,6 +33,7 @@
         & h3 {
             font-size: 3.2rem;
             font-weight: 500;
+
         }
 
         & h4 {
@@ -46,14 +48,14 @@
             line-height: 2.8rem;
         }
 
-        &__implementation {
-            @include respond(tab-port) {
-                margin-top: 5rem;
-            }
 
+        &__implementation p {
+            text-indent: 50px;
+        }
 
-            & p {
-                text-indent: 50px;
+        &__implementation h3 {
+            @include respond(phone) {
+                margin-top: 8rem;
             }
         }
 
