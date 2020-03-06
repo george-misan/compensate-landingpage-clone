@@ -9,11 +9,19 @@
         grid-template-columns: 1fr;
     }
 
+    @include respond(phone) {
+        padding: 5rem;
+    }
+
     &__text {
         font-size: 6rem;
         font-weight: 600;
         color: white;
         align-self: center;
+
+        @include respond(phone) {
+            font-size: 3.4rem;
+        }
 
     }
 
@@ -22,6 +30,10 @@
 
         & img {
             width: 500px;
+
+            @include respond(phone) {
+                width: 250px;
+            }
         }
     }
 

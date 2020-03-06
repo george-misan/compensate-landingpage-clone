@@ -11,9 +11,19 @@
         grid-template-columns: 1fr;
     }
 
+    @include respond(phone) {
+        height: 180vh;
+        padding: 2rem;
+    }
+
+
 
     &__textbox {
 
+        @include respond(phone) {
+            width: 30rem;
+            margin: 0 auto;
+        }
 
         &__container {
             height: 100%;
@@ -29,6 +39,10 @@
             font-weight: 500;
             margin-bottom: 2.5rem;
 
+            @include respond(phone) {
+                font-size: 3.5rem;
+            }
+
         }
 
         & span {
@@ -40,6 +54,7 @@
 
     &__button {
         margin: 5rem;
+
     }
 
     &__photo {
@@ -56,6 +71,11 @@
         & img {
 
             width: 100%;
+
+            @include respond(phone) {
+                width: 50%;
+                margin: 0 auto;
+            }
         }
     }
 }

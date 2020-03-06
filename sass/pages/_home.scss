@@ -34,6 +34,10 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
+
+    @include respond(phone) {
+        height: 155vh;
+    }
 }
 
 .section-socialmedia {
@@ -45,6 +49,10 @@
 
     @include respond(tab-port) {
         height: 40vh;
+    }
+
+    @include respond(tab-port) {
+        height: 30vh;
     }
 }
 

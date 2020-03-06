@@ -10,13 +10,25 @@
         grid-template-columns: 1fr;
         overflow: visible;
         height: 100%;
+        padding: 5rem 1.5rem;
     }
+
+
+    @include respond(phone) {
+        grid-gap: 10rem;
+    }
+
 
     &__photo {
         text-align: center;
 
         & img {
             width: 54rem;
+
+            @include respond(phone) {
+                width: 34rem;
+            }
+
         }
     }
 
@@ -32,6 +44,12 @@
             @include respond(tab-port) {
                 text-align: center;
             }
+
+            @include respond(phone) {
+                font-size: 5rem;
+                margin-bottom: 5rem;
+
+            }
         }
     }
 
@@ -40,6 +58,11 @@
         grid-template-columns: 30rem 30rem;
         grid-gap: 5rem;
         grid-template-rows: auto;
+
+        @include respond(phone) {
+            grid-template-columns: 16rem 16rem;
+            grid-gap: 3rem;
+        }
     }
 
 
@@ -54,6 +77,11 @@
     align-content: center;
     justify-content: center;
 
+    @include respond(phone) {
+        width: 140px;
+        height: 140px;
+    }
+
     &__textbox {
         color: white;
         text-align: center;
@@ -62,11 +90,20 @@
             display: inline-block;
             font-size: 6rem;
 
+            @include respond(phone) {
+                font-size: 4rem;
+                font-weight: 700;
+            }
+
         }
 
         & p {
             font-size: 2rem;
             font-weight: 500;
+
+            @include respond(phone) {
+                font-size: 1.6rem;
+            }
         }
     }
 }
