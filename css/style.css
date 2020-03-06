@@ -619,7 +619,7 @@ cite {
 .section-traction {
   height: 100vh;
   padding-top: 10rem;
-  background: #F0F2F2;
+  background: #f0f2f2;
   display: grid;
   grid-template-columns: 1fr 1fr;
   overflow: hidden; }
@@ -657,17 +657,17 @@ cite {
     grid-template-columns: 30rem 30rem;
     grid-gap: 5rem;
     grid-template-rows: auto; }
+    @media (max-width: 112em) {
+      .section-traction__icons {
+        grid-gap: -10rem; } }
     @media (max-width: 37.5em) {
       .section-traction__icons {
         grid-template-columns: 16rem 16rem;
         justify-content: center;
         grid-gap: 3rem; } }
-    @media (max-width: 112em) {
-      .section-traction__icons {
-        grid-gap: 10rem; } }
 
 .round-icon {
-  background: #288C96;
+  background: #288c96;
   width: 280px;
   height: 280px;
   border-radius: 100%;
