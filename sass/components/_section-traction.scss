@@ -65,6 +65,10 @@
             justify-content: center;
             grid-gap: 3rem;
         }
+
+        @include respond(desktop) {
+            grid-gap: 10rem;
+        }
     }
 
 
