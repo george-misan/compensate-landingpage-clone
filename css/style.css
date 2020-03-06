@@ -24,9 +24,9 @@ html {
   @media (max-width: 75em) {
     html {
       font-size: 50%; } }
-  @media (min-width: 120.6em) {
+  @media (min-width: 112.6em) {
     html {
-      font-size: 62%; } }
+      font-size: 52%; } }
 
 body {
   font-family: "Montserrat";
