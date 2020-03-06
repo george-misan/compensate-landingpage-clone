@@ -662,7 +662,7 @@ cite {
     grid-template-rows: auto; }
     @media (max-width: 37.5em) {
       .section-traction__icons {
-        grid-template-columns: 16rem 16rem;
+        grid-template-columns: 18rem 18rem;
         justify-content: center;
         grid-gap: 4rem;
         grid-template-rows: 15rem; } }
@@ -677,8 +677,8 @@ cite {
   justify-content: center; }
   @media (max-width: 37.5em) {
     .round-icon {
-      width: 14rem;
-      height: 14rem; } }
+      width: 17rem;
+      height: 17rem; } }
   .round-icon__textbox {
     color: white;
     text-align: center; }
