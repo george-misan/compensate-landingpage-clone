@@ -659,7 +659,7 @@ cite {
     grid-template-rows: auto; }
     @media (max-width: 112em) {
       .section-traction__icons {
-        grid-gap: -10rem; } }
+        grid-gap: 0; } }
     @media (max-width: 37.5em) {
       .section-traction__icons {
         grid-template-columns: 16rem 16rem;
