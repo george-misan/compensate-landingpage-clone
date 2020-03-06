@@ -67,16 +67,17 @@
 
 .round-icon {
     background: #288c96;
-    width: 280px;
-    height: 280px;
+    width: 28rem;
+    height: 28rem;
     border-radius: 100%;
     display: grid;
     align-content: center;
     justify-content: center;
 
+
     @include respond(phone) {
-        width: 140px;
-        height: 140px;
+        width: 20rem;
+        height: 20rem;
     }
 
     &__textbox {
