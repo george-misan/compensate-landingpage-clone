@@ -385,7 +385,7 @@ cite {
   align-items: center; }
 
 .section-business {
-  height: 120vh;
+  height: 125vh;
   margin: 2rem; }
   @media (max-width: 56.25em) {
     .section-business {
@@ -532,7 +532,7 @@ cite {
   .section-trademark__photo {
     text-align: center; }
     .section-trademark__photo img {
-      width: 82%; }
+      width: 62%; }
 
 .section-community {
   display: grid;
@@ -677,8 +677,8 @@ cite {
   justify-content: center; }
   @media (max-width: 37.5em) {
     .round-icon {
-      width: 20rem;
-      height: 20rem; } }
+      width: 18rem;
+      height: 18rem; } }
   .round-icon__textbox {
     color: white;
     text-align: center; }
