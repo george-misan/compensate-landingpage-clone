@@ -18,8 +18,9 @@
             grid-template-columns: 1fr;
         }
 
-        @include respond(tab-port) {
+        @include respond(phone) {
             padding: 0;
+            grid-gap: 8rem;
         }
     }
 

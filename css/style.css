@@ -350,7 +350,7 @@ cite {
     @media (max-width: 37.5em) {
       .offer-box__textbox {
         width: 30rem;
-        top: -75%; } }
+        top: -65%; } }
     .offer-box__textbox h3 {
       font-size: 3.5rem;
       font-weight: 500;
@@ -395,9 +395,10 @@ cite {
     @media (max-width: 56.25em) {
       .section-business__row {
         grid-template-columns: 1fr; } }
-    @media (max-width: 56.25em) {
+    @media (max-width: 37.5em) {
       .section-business__row {
-        padding: 0; } }
+        padding: 0;
+        grid-gap: 8rem; } }
   .section-business__textbox {
     width: 40%;
     margin: 0 auto;
@@ -569,7 +570,7 @@ cite {
       height: 80rem; }
       @media (max-width: 37.5em) {
         .section-community__photo img {
-          width: 38rem;
+          width: 44rem;
           height: 35rem; } }
 
 .section-wecompensate {
@@ -656,6 +657,7 @@ cite {
     @media (max-width: 37.5em) {
       .section-traction__icons {
         grid-template-columns: 16rem 16rem;
+        justify-content: center;
         grid-gap: 3rem; } }
 
 .round-icon {
@@ -762,7 +764,7 @@ cite {
       padding: 2rem; } }
   @media (max-width: 37.5em) {
     .section-reviews__textbox {
-      width: 30rem;
+      width: 40rem;
       margin: 0 auto; } }
   .section-reviews__textbox__container {
     height: 100%;
@@ -781,6 +783,9 @@ cite {
     font-size: 4rem;
     font-weight: 600;
     display: block; }
+    @media (max-width: 37.5em) {
+      .section-reviews__textbox span {
+        font-size: 2.5rem; } }
   .section-reviews__button {
     margin: 5rem; }
   .section-reviews__photo {
@@ -789,6 +794,9 @@ cite {
       height: 100%;
       display: grid;
       align-content: center; }
+      @media (max-width: 37.5em) {
+        .section-reviews__photo__container {
+          align-content: start; } }
     .section-reviews__photo img {
       width: 100%; }
       @media (max-width: 37.5em) {
@@ -800,6 +808,9 @@ cite {
   height: 110vh;
   background: #FCFAF8;
   padding: 5rem 10rem; }
+  @media (max-width: 37.5em) {
+    .section-partners {
+      padding: 2.5rem 5rem; } }
   .section-partners h2 {
     text-align: center;
     margin: 0 auto;
@@ -807,6 +818,10 @@ cite {
     font-weight: 600;
     width: 60%;
     padding: 5rem 0; }
+    @media (max-width: 37.5em) {
+      .section-partners h2 {
+        font-size: 3.5rem;
+        width: 100%; } }
   .section-partners__textbox {
     display: grid;
     grid-template-columns: repeat(2, 1fr); }
