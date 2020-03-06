@@ -677,8 +677,8 @@ cite {
   justify-content: center; }
   @media (max-width: 37.5em) {
     .round-icon {
-      width: 18rem;
-      height: 18rem; } }
+      width: 14rem;
+      height: 14rem; } }
   .round-icon__textbox {
     color: white;
     text-align: center; }
