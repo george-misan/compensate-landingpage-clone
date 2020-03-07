@@ -982,7 +982,7 @@ cite {
       padding: 1.5rem 2rem; } }
   @media (max-width: 37.5em) {
     .navigation__link:link, .navigation__link:visited {
-      padding: 1.5rem 2rem; } }
+      padding: 1rem 2rem; } }
 
 .navigation__link:hover, .navigation__link:active {
   background-position: 100%;
