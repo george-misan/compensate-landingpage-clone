@@ -287,16 +287,11 @@ body {
       line-height: 2.8rem; } }
 
 .section-quote {
-  height: 110vh;
-  margin-top: 5rem;
-  text-align: center;
-  margin-bottom: 10rem; }
+  height: 100vh;
+  text-align: center; }
   @media (max-width: 56.25em) {
     .section-quote {
       height: 100%; } }
-  @media (max-width: 112em) {
-    .section-quote {
-      background: black; } }
 
 .blockquote {
   display: inline-block;
@@ -305,6 +300,9 @@ body {
   font-weight: 500;
   padding: 4rem;
   margin-top: 10%; }
+  @media (max-width: 112em) {
+    .blockquote {
+      margin-bottom: 5rem; } }
   @media (max-width: 56.25em) {
     .blockquote {
       font-size: 3rem;
@@ -319,7 +317,7 @@ cite {
   font-style: normal;
   font-size: 3rem;
   font-weight: 600;
-  margin: .4rem 0; }
+  margin: 1.8rem 0; }
   @media (max-width: 37.5em) {
     cite {
       font-size: 2rem;
