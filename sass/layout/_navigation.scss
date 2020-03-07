@@ -77,6 +77,14 @@
             background-size: 230%;
             transition: all .4s;
 
+            @include respond(tab-port) {
+                padding: 1.5rem 2rem;
+            }
+
+            @include respond(phone) {
+                padding: 1.5rem 2rem;
+            }
+
         }
 
         &:hover,
