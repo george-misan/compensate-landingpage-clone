@@ -1,10 +1,18 @@
 .section-quote {
-    height: 100vh;
+    height: 110vh;
+    margin-top: 5rem;
     text-align: center;
+    margin-bottom: 10rem;
+
 
     @include respond(tab-port) {
         height: 100%;
     }
+
+    @include respond(desktop) {
+        background: black;
+    }
+
 
 }
 
@@ -15,6 +23,8 @@
     font-weight: 500;
     padding: 4rem;
     margin-top: 10%;
+
+
 
     @include respond(tab-port) {
         font-size: 3rem;
@@ -33,7 +43,7 @@ cite {
     font-style: normal;
     font-size: 3rem;
     font-weight: 600;
-    margin: 1.8rem 0;
+    margin: .4rem 0;
 
     @include respond(phone) {
         font-size: 2rem;
