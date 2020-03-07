@@ -1,6 +1,10 @@
 .section-quote {
-    height: 100vh;
+    height: 70vh;
     text-align: center;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+
 
     @include respond(tab-port) {
         height: 100%;
@@ -11,10 +15,10 @@
 .blockquote {
     display: inline-block;
     width: 120rem;
+    height: 30rem;
     font-size: 5rem;
     font-weight: 500;
     padding: 4rem;
-    margin-top: 10%;
 
     @include respond(tab-port) {
         font-size: 3rem;

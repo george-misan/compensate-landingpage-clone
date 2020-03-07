@@ -1,4 +1,11 @@
+.section-features {
+    height: 70vh;
+    display: grid;
+    align-content: center;
+}
+
 .feature-box {
+
     @include respond(tab-port) {
         padding: 0 4rem;
     }

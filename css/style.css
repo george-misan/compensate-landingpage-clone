@@ -251,6 +251,11 @@ body {
     .short-text {
       font-size: 1.6rem; } }
 
+.section-features {
+  height: 70vh;
+  display: grid;
+  align-content: center; }
+
 @media (max-width: 56.25em) {
   .feature-box {
     padding: 0 4rem; } }
@@ -287,8 +292,11 @@ body {
       line-height: 2.8rem; } }
 
 .section-quote {
-  height: 100vh;
-  text-align: center; }
+  height: 70vh;
+  text-align: center;
+  display: grid;
+  align-content: center;
+  justify-content: center; }
   @media (max-width: 56.25em) {
     .section-quote {
       height: 100%; } }
@@ -296,10 +304,10 @@ body {
 .blockquote {
   display: inline-block;
   width: 120rem;
+  height: 30rem;
   font-size: 5rem;
   font-weight: 500;
-  padding: 4rem;
-  margin-top: 10%; }
+  padding: 4rem; }
   @media (max-width: 56.25em) {
     .blockquote {
       font-size: 3rem;
