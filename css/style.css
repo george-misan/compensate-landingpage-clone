@@ -61,7 +61,7 @@ body {
         font-size: 2.4rem; } }
     @media (max-width: 37.5em) {
       .heading-primary--sub {
-        font-size: 1.4rem; } }
+        font-size: 1.6rem; } }
 
 .heading-tertiary {
   color: #0c1111;
@@ -96,6 +96,9 @@ body {
     left: 5rem; }
   .header__logo {
     width: 16rem; }
+    @media (max-width: 37.5em) {
+      .header__logo {
+        width: 8rem; } }
   .header__hero-box {
     position: absolute;
     top: 50%;
@@ -189,8 +192,8 @@ body {
           line-height: 3rem; } }
       @media (max-width: 37.5em) {
         .section-info__textbox p {
-          font-size: 1.6rem;
-          line-height: 2.6rem; } }
+          font-size: 1.8rem;
+          line-height: 2.8rem; } }
   .section-info__video {
     position: relative;
     overflow: hidden;
