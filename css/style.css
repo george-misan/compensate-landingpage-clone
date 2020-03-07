@@ -402,7 +402,7 @@ cite {
   align-items: center; }
 
 .section-business {
-  height: 125vh;
+  height: 130vh;
   margin-top: 2rem; }
   @media (max-width: 56.25em) {
     .section-business {
@@ -417,7 +417,7 @@ cite {
         grid-template-columns: 1fr; } }
     @media (max-width: 37.5em) {
       .section-business__row {
-        padding: 0;
+        padding: 2.5rem;
         grid-gap: 8rem; } }
   .section-business__textbox {
     width: 40%;
