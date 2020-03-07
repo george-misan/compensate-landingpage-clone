@@ -257,10 +257,11 @@ body {
   align-content: center; }
   @media (max-width: 56.25em) {
     .section-features {
-      height: 100vh; } }
+      height: 100rem; } }
   @media (max-width: 37.5em) {
     .section-features {
-      height: 200vh; } }
+      height: 200rem;
+      background: lightcoral; } }
 
 @media (max-width: 56.25em) {
   .feature-box {
@@ -305,7 +306,7 @@ body {
   justify-content: center; }
   @media (max-width: 56.25em) {
     .section-quote {
-      height: 50vh; } }
+      height: 50rem; } }
 
 .blockquote {
   display: inline-block;
