@@ -16,9 +16,7 @@
     padding: 4rem;
     margin-top: 10%;
 
-    @include respond(desktop) {
-        margin-bottom: 5rem;
-    }
+
 
     @include respond(tab-port) {
         font-size: 3rem;
@@ -38,6 +36,10 @@ cite {
     font-size: 3rem;
     font-weight: 600;
     margin: 1.8rem 0;
+
+    @include respond(desktop) {
+        margin-bottom: 5rem;
+    }
 
     @include respond(phone) {
         font-size: 2rem;

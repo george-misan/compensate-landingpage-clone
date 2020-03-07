@@ -300,9 +300,6 @@ body {
   font-weight: 500;
   padding: 4rem;
   margin-top: 10%; }
-  @media (max-width: 112em) {
-    .blockquote {
-      margin-bottom: 5rem; } }
   @media (max-width: 56.25em) {
     .blockquote {
       font-size: 3rem;
@@ -318,6 +315,9 @@ cite {
   font-size: 3rem;
   font-weight: 600;
   margin: 1.8rem 0; }
+  @media (max-width: 112em) {
+    cite {
+      margin-bottom: 5rem; } }
   @media (max-width: 37.5em) {
     cite {
       font-size: 2rem;
