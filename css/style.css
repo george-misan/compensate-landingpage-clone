@@ -165,7 +165,7 @@ body {
   height: 160rem; }
   @media (max-width: 37.5em) {
     .section-info {
-      height: 115rem; } }
+      height: 110rem; } }
   .section-info__textbox {
     display: inline-block;
     margin-bottom: 4rem;
