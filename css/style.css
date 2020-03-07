@@ -402,7 +402,7 @@ cite {
   align-items: center; }
 
 .section-business {
-  height: 130vh;
+  height: 140rem;
   margin-top: 2rem; }
   @media (max-width: 56.25em) {
     .section-business {
