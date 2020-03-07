@@ -968,7 +968,7 @@ cite {
 
 .navigation__link:link, .navigation__link:visited {
   display: inline-block;
-  font-size: 5rem;
+  font-size: 3.5rem;
   font-weight: 200;
   padding: 2rem 2rem;
   color: white;
