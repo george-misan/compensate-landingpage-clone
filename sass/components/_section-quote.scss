@@ -37,10 +37,6 @@ cite {
     font-weight: 600;
     margin: 1.8rem 0;
 
-    @include respond(desktop) {
-        margin-bottom: 5rem;
-    }
-
     @include respond(phone) {
         font-size: 2rem;
         font-weight: 500;
