@@ -403,7 +403,7 @@ cite {
 
 .section-business {
   height: 125vh;
-  margin: 2rem; }
+  margin-top: 2rem; }
   @media (max-width: 56.25em) {
     .section-business {
       height: 100%; } }
@@ -715,12 +715,12 @@ cite {
 
 .section-impact {
   background-color: #FCFAF8;
-  height: 100vh; }
+  height: 110vh; }
   @media (max-width: 56.25em) {
     .section-impact {
       height: 100%; } }
   .section-impact__textbox {
-    margin-top: 15rem;
+    padding-top: 15rem;
     display: grid;
     justify-content: center;
     text-align: center; }
@@ -829,7 +829,7 @@ cite {
           margin: 0 auto; } }
 
 .section-partners {
-  height: 110vh;
+  height: 120vh;
   background: #FCFAF8;
   padding: 15rem 10rem; }
   @media (max-width: 37.5em) {
@@ -1002,7 +1002,7 @@ cite {
   .navigation__icon, .navigation__icon::before, .navigation__icon::after {
     width: 3rem;
     height: 2px;
-    background-color: grey;
+    background-color: #5d5d5d;
     display: inline-block; }
   .navigation__icon::before, .navigation__icon::after {
     content: "";

@@ -1,13 +1,13 @@
 .section-impact {
     background-color: #FCFAF8;
-    height: 100vh;
+    height: 110vh;
 
     @include respond(tab-port) {
         height: 100%;
     }
 
     &__textbox {
-        margin-top: 15rem;
+        padding-top: 15rem;
         display: grid;
         justify-content: center;
         text-align: center;
