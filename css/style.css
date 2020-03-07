@@ -165,7 +165,7 @@ body {
   height: 160rem; }
   @media (max-width: 37.5em) {
     .section-info {
-      height: 100rem; } }
+      height: 115rem; } }
   .section-info__textbox {
     display: inline-block;
     margin-bottom: 4rem;
@@ -255,10 +255,16 @@ body {
   height: 70vh;
   display: grid;
   align-content: center; }
+  @media (max-width: 56.25em) {
+    .section-features {
+      height: 100vh; } }
+  @media (max-width: 37.5em) {
+    .section-features {
+      height: 200vh; } }
 
 @media (max-width: 56.25em) {
   .feature-box {
-    padding: 0 4rem; } }
+    padding: 0 6rem; } }
 
 .feature-box__number {
   font-size: 9rem;
@@ -299,7 +305,7 @@ body {
   justify-content: center; }
   @media (max-width: 56.25em) {
     .section-quote {
-      height: 100%; } }
+      height: 50vh; } }
 
 .blockquote {
   display: inline-block;
@@ -326,8 +332,7 @@ cite {
   @media (max-width: 37.5em) {
     cite {
       font-size: 2rem;
-      font-weight: 500;
-      margin: 0; } }
+      font-weight: 500; } }
 
 .section-offer h2 {
   font-size: 5.2rem; }
@@ -364,7 +369,7 @@ cite {
     @media (max-width: 37.5em) {
       .offer-box__textbox {
         width: 30rem;
-        top: -65%; } }
+        top: -50%; } }
     .offer-box__textbox h3 {
       font-size: 3.5rem;
       font-weight: 500;
